@@ -1,4 +1,4 @@
-package main.java.ringbuffer;
+package ringbuffer;
 
 public class Master {
 }
