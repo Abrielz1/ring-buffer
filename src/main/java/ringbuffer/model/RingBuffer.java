@@ -1,4 +1,4 @@
-package main.java.ringbuffer.model;
+package ringbuffer.model;
 
 import lombok.Getter;
 import lombok.ToString;
@@ -196,7 +196,6 @@ public class RingBuffer {
         }
     }
 
-
     @Getter
     @ToString
     public static class Range {
@@ -216,6 +215,5 @@ public class RingBuffer {
 
             return isValid() ? end - start + 1 : 0;
         }
-
     }
 }
